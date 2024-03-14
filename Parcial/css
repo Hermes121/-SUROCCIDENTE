@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #db1f1f;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+ /* Estilos para la imagen en el pie de página */
+ footer img {
+    float: left; /* Flotar a la izquierda */
+    max-width: 100px;
+    margin-right: 20px; /* Añadir espacio entre la imagen y el texto */
+}
+
+/* Estilos para el texto en el pie de página */
+footer p {
+    max-width: calc(100% - 120px); /* Restando el ancho de la imagen y el margen */
+    margin: 0;
+}
+section {
+    text-align: center;
+}
+footer {
+    background-color: #ff0000; /* Color rojo */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
